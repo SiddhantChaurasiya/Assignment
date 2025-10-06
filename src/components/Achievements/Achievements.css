@@ -1,0 +1,38 @@
+.achievements-section {
+  width: 100%;
+  height: 440px;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievements-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.award-logo-single {
+  height: 130px;
+  width: auto;
+  object-fit: contain;
+}
+
+.award-logo-banner {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+}
